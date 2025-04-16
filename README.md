@@ -110,10 +110,6 @@ flutter_assist -p
 4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
 5. Bir Pull Request oluşturun
 
-## 📝 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
-
 ## 👨‍💻 Geliştirici
 
 Bu proje [burakJs](https://github.com/burakJs) tarafından geliştirilmiştir. 
