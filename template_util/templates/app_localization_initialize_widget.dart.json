@@ -1,0 +1,7 @@
+{
+  "path": "/lib/core/app/app_localization_initialize_widget.dart",
+  "content": "import 'package:{FLUTTER_ASSIST}/core/localization/app_localization_enum.dart';\nimport 'package:easy_localization/easy_localization.dart';\n\nfinal class AppLocalizationInitializeWidget extends EasyLocalization {\n  AppLocalizationInitializeWidget({\n    required super.child,\n    super.key,\n  }) : super(\n          supportedLocales: AppLocalizationEnum.supportedLocales,\n          path: AppLocalizationEnum.path,\n          useOnlyLangCode: true,\n          startLocale: AppLocalizationEnum.tr.locale,\n        );\n}\n",
+  "types": [
+    "ALL"
+  ]
+}

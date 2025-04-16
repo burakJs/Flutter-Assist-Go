@@ -1,0 +1,38 @@
+[
+  {
+    "name": "firebase_core",
+    "types": [
+      "FIREBASE"
+    ]
+  },
+  {
+    "name": "firebase_auth",
+    "types": [
+      "FIREBASE"
+    ]
+  },
+  {
+    "name": "cloud_firestore",
+    "types": [
+      "FIREBASE"
+    ]
+  },
+  {
+    "name": "vexana",
+    "types": [
+      "REST_API"
+    ]
+  },
+  {
+    "name": "flutter_bloc",
+    "types": [
+      "ALL"
+    ]
+  },
+  {
+    "name": "equatable",
+    "types": [
+      "ALL"
+    ]
+  }
+]

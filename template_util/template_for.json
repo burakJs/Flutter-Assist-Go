@@ -1,0 +1,16 @@
+{
+  "types": [
+    {
+      "name": "REST_API",
+      "description": "REST API kullanacak projeler için paketler"
+    },
+    {
+      "name": "FIREBASE",
+      "description": "Template for FIREBASE"
+    },
+    {
+      "name": "ALL",
+      "description": "Template for ALL"
+    }
+  ]
+}

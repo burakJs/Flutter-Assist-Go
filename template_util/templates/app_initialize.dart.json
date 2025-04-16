@@ -1,0 +1,7 @@
+{
+  "path": "/lib/core/app/app_initialize.dart",
+  "content": "import 'package:{FLUTTER_ASSIST}/core/cache/app_cache.dart';\nimport 'package:{FLUTTER_ASSIST}/core/cache/hive_cache_initialize.dart';\nimport 'package:{FLUTTER_ASSIST}/core/deep_link/deep_link_initialize.dart';\nimport 'package:{FLUTTER_ASSIST}/core/dependency/app_dependency.dart';\nimport 'package:{FLUTTER_ASSIST}/firebase_options.dart';\nimport 'package:easy_localization/easy_localization.dart';\nimport 'package:firebase_core/firebase_core.dart';\nimport 'package:firebase_crashlytics/firebase_crashlytics.dart';\nimport 'package:flutter/foundation.dart';\nimport 'package:flutter/material.dart';\nimport 'package:flutter/services.dart';\n\nfinal class AppInitialize {\n  Future\u003cvoid\u003e init() async {\n    WidgetsFlutterBinding.ensureInitialized();\n    await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);\n    FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterError;\n    await FirebaseCrashlytics.instance.setCrashlyticsCollectionEnabled(!kDebugMode);\n    await EasyLocalization.ensureInitialized();\n    await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);\n    await AppCache(cacheInitialize: HiveCacheInitialize()).init();\n    await const AppDependency().init();\n    await DeepLinkInitialize().init();\n  }\n}\n",
+  "types": [
+    "ALL"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "path": "/lib/core/app/app_context_initialize_widget.dart",
+  "content": "import 'package:{FLUTTER_ASSIST}/core/context/app_provider.dart';\nimport 'package:provider/provider.dart';\n\nclass AppContextInitializeWidget extends MultiProvider {\n  AppContextInitializeWidget({required super.child, super.key})\n      : super(\n          providers: AppProvider.items(),\n        );\n}\n",
+  "types": [
+    "ALL"
+  ]
+}

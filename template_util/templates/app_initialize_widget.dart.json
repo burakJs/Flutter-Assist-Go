@@ -1,0 +1,7 @@
+{
+  "path": "/lib/core/app/app_initialize_widget.dart",
+  "content": "import 'package:{FLUTTER_ASSIST}/core/app/app_context_initialize_widget.dart';\nimport 'package:{FLUTTER_ASSIST}/core/app/app_localization_initialize_widget.dart';\nimport 'package:flutter/material.dart';\n\nfinal class AppInitializeWidget extends StatelessWidget {\n  const AppInitializeWidget({required this.child, super.key});\n  final Widget child;\n\n  @override\n  Widget build(BuildContext context) {\n    return AppLocalizationInitializeWidget(\n      child: AppContextInitializeWidget(\n        child: child,\n      ),\n    );\n  }\n}\n",
+  "types": [
+    "ALL"
+  ]
+}
