@@ -20,7 +20,11 @@ go build -o flutter_assist cmd/flutter_assist/main.go
 
 ### Go Install ile Kurulum
 ```bash
+<<<<<<< HEAD
 go install github.com/burakJs/Flutter-Assist-Go@latest
+=======
+go install github.com/burakJs/flutter_assist@latest
+>>>>>>> afeb4a6fcf90b129f871b116a26ba2c732e2c9b6
 ```
 
 ## 🚀 Kullanım
