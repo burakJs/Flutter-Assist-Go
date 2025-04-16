@@ -20,7 +20,7 @@ go build -o flutter_assist cmd/flutter_assist/main.go
 
 ### Go Install ile Kurulum
 ```bash
-go install github.com/buraksekili/flutter_assist@latest
+go install github.com/burakJs/Flutter-Assist-Go@latest
 ```
 
 ## 🚀 Kullanım
@@ -112,4 +112,4 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICE
 
 ## 👨‍💻 Geliştirici
 
-Bu proje [Burak Sekili](https://github.com/buraksekili) tarafından geliştirilmiştir. 
+Bu proje [burakJs](https://github.com/burakJs) tarafından geliştirilmiştir. 
